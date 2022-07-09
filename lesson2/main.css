@@ -1,0 +1,40 @@
+.conteiner {
+    height: 630px;
+    width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.one{
+    height: 200px;
+    width: 450px;
+    background: red;
+}
+
+.two{
+    height: 100px;
+    width: 450px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.three{
+    height: 300px;
+    width: 450px;
+    background: dimgray;
+}
+
+.b1{
+    height: 100px;
+    width: 140px;
+    background: chocolate;
+}
+
+.one, .three, .b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
