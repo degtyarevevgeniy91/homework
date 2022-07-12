@@ -23,6 +23,10 @@
     border-radius: 10px;
 }
 
+.card:hover{
+    background: silver;
+}
+
 .icon{
     width: 150px;
     height: 150px;
@@ -48,6 +52,9 @@
     flex-direction: column;
     justify-content: center;
 }
+
+
+
 
 .title>h4{
     color: #f8c622;
