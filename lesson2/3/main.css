@@ -1,38 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .father{
     width: 950px;
-    height: 500px;
-    background: #00fdf1;
+    height: 600px;
+    /*border: 2px solid silver;*/
+    margin: auto;
     display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 
-
-.xxx{
+.card{
+    width: 450px;
     height: 150px;
-    width: 400px;
     background: #f3f8f8;
-    box-sizing: border-box;
-    margin: 10px;
     display: flex;
-    border-radius: 6px;
-    flex-direction: column;
-    justify-content: space-between;
+    border-radius: 10px;
 }
+
+.icon{
+    width: 150px;
+    height: 150px;
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon>i{
+    font-size: 40px;
+    color: dimgray;
+}
+
+
 
 
 .title{
-    font-size: 18px;
-    padding-top: 15px;
-    padding-left: 100px;
+    width: 300px;
+    height: 150px;
+    /*border: 2px solid yellow;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-
-
-.dyscription{
-    font-size: 16px;
-    padding-left: 100px;
+.title>h4{
+    color: #f8c622;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
+.title>p{
+    padding-right: 15px;
+    color: dimgray;
+}
