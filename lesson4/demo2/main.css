@@ -45,6 +45,10 @@
 
 
 @media screen and (max-width: 576px){
+    .wrap{
+        width: 576px;
+    }
+
     .wrap1{
         flex-direction: column;
     }
@@ -64,6 +68,7 @@
     .box{
         width: 192px;
         height: 192px;
+
 
     }
     .f{
